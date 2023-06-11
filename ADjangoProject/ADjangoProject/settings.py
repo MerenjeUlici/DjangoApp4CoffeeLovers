@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'CoffeeVendors.apps.CoffeevendorsConfig',
+    # 'django.contrib.gis',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
