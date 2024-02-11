@@ -1,2 +1,2 @@
-# DjangoApp4CoffeLovers
+# DjangoApp4StreetWanderers
 This app will be locator
