@@ -1,2 +1,2 @@
-# DjangoApp4StreetWanderers
-This app will be locator
+# DjangoApp4CoffeeLovers
+This app will be a locator for coffee in Skopje
