@@ -25,3 +25,9 @@ Start server:
 ```
 python manage.py runserver
 ```
+
+Run migrations:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
