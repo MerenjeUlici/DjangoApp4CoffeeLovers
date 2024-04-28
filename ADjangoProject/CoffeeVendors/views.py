@@ -1,8 +1,11 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import generics
+from .models import CoffeeVendor
+from .serializers import CoffeeVendorSerializer
 
-def coffee_vendors_home_map(request):
-    return render(request, 'CoffeeVendors/vendors_home_map.html')
+class VendorsList(generics.ListAPIView):
+    queryset = CoffeeVendor.objects.all()
+    serializer_class = CoffeeVendorSerializer
 
-def coffee_vendors_by_id_page(request):
-    return render(request, 'CoffeeVendors/vendors_by_id_page.html')
+
+class VendorDetail(generics.RetrieveAPIView):
+    pass
