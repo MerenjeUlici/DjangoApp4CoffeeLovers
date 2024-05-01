@@ -8,4 +8,5 @@ class VendorsList(generics.ListAPIView):
 
 
 class VendorDetail(generics.RetrieveAPIView):
-    pass
+    queryset = CoffeeVendor.objects.all()
+    serializer_class = CoffeeVendorSerializer
