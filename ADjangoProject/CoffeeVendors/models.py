@@ -15,8 +15,8 @@ class VendorType(models.Model):
 class CoffeeVendor(models.Model):
 
     name = models.CharField(max_length=100)
-    vendor_type = models.ForeignKey(VendorType, null=True, on_delete=models.PROTECT)
-    user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
+    vendor_type = models.ForeignKey(VendorType, blank=True, null=True, on_delete=models.PROTECT)
+    user = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
 
     description = models.TextField()
     date_created = models.DateTimeField(auto_now_add=True)
