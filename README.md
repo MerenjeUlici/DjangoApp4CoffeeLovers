@@ -36,3 +36,9 @@ Create super user:
 ```
 python manage.py createsuperuser
 ```
+
+Install nodejs and npm on Ubuntu:
+```
+sudo apt install nodejs
+sudo apt install npm
+```
