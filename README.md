@@ -39,6 +39,8 @@ python manage.py createsuperuser
 
 Install nodejs and npm on Ubuntu:
 ```
+curl -sL https://deb.nodesource.com/setup_14.x -o setup_14.sh
+sudo sh ./setup_14.sh
 sudo apt install nodejs
-sudo apt install npm
+sudo npm i -g npx
 ```
