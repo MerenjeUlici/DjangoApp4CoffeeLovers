@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+
+
+  backend:
+    build: ./ADjangoProject
+    volumes:
+      - ./ADjangoProject:/app
+    ports:
+      - "8000:8000"
+
+
+
