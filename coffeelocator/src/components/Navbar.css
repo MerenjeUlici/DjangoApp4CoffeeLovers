@@ -1,0 +1,38 @@
+
+
+.navbar {
+  background-color: #3e3b3a;
+}
+
+.navlink {
+  color: #e0d8d4;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 20px;
+  display: inline-flex;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navlink:hover { 
+  color: #ffffff; 
+} 
+
+.navlinkhome {
+  color: #e0d8d4;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 60px;
+  display: inline-flex;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+.navlinkhome:hover { 
+  color: #ffffff; 
+} 
+
+
