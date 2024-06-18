@@ -13,7 +13,11 @@ const CoffeeVendors = () => {
     return(
         <div>
         <div> CoffeeVendors </div>
-        <p> {JSON.stringify(data)} </p>
+        { data.map((d) => (
+            <div key = {d.id}>
+                {d.id} , {d.name}, {d.vendor_type}, {d.user}
+            </div>
+            ))}
         </div>
     )
 }
